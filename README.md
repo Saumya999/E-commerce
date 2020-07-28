@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Welcome to J-bellin
 
 You can use the [editor on GitHub](https://github.com/Saumya999/E-commerce/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Steps to Run the project locally
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Prerequisite : Download Node from (https://nodejs.org/en/download/) , choose the recommended version foR users.
 
-```markdown
-Syntax highlighted code block
+Download mongodb in your local system.
+Download VS code as editor (My choise, you can use others also )
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+1. Clone the project in your local System
 
-1. Numbered
-2. List
+2. from C drive -> Programfiles -> MongoDb -> Server -> bin >  Open Command Prompt here -> run command "mongod" 
 
-**Bold** and _Italic_ and `Code` text
+3. from C drive -> Programfiles -> MongoDb -> Server -> bin >  Open Command Prompt here -> run command "mongo"
 
-[Link](url) and ![Image](src)
-```
+4. Keep alive above two commands Simaltaneously in comand promt.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+5. now open the cloned project in Vscode
 
-### Jekyll Themes
+6. from Run -> new terminal -> npm install 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Saumya999/E-commerce/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+7. after doing above step in project do " cd client " 
 
-### Support or Contact
+8. after entering the client directory do the same " npm install "
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+9. now come out from the client directory using "cd .."
+
+10. Now all the dependencies have been installed.
+
+11. do "npm run dev" in the project.
+
+
+Collaborators please create branch and develop dont merge directly in to master

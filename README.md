@@ -35,4 +35,6 @@ Download VS code as editor (My choise, you can use others also )
 11. do "npm run dev" in the project.
 
 
-Collaborators please create branch and develop dont merge directly in to master
+Collaborators please create branch and develop dont merge directly in to master.
+
+Dont Merge please without reviewing by any of the collaborators.
